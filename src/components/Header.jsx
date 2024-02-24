@@ -18,7 +18,7 @@ const Header = () => {
           <li className="nav-item">
             <Link to="/projects">Projects</Link>
           </li>
-          <li className="contact-btn">
+          <li className="btn border-stone-800 hover:bg-stone-800">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
