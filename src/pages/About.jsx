@@ -24,8 +24,8 @@ const About = () => {
             voluptatibus repellat sapiente eum delectus doloribus praesentium
             corporis nulla obcaecati alias!
           </p>
-          <button className="btn btn-primary">
-            Download CV
+          <button className="btn-primary mx-auto lg:mx-0">
+            Resume
             <Download />
           </button>
         </div>

@@ -15,11 +15,11 @@ body {
     @apply hover:underline underline-offset-4;
   }
 
-  .btn {
-    @apply border-2 font-medium px-3 py-0.5 rounded-md transition duration-300 hover:text-white;
+  .btn-primary {
+    @apply uppercase font-medium px-3 py-1 rounded-md transition duration-300 bg-blue-600 text-white w-fit flex gap-2 items-center hover:bg-opacity-80;
   }
 
-  .btn-primary {
-    @apply border-blue-600 text-blue-600 hover:bg-blue-600 w-fit flex gap-3 items-center mx-auto lg:mx-0;
+  .input {
+    @apply border-2 p-2 indent-1 rounded-md outline-blue-600;
   }
 }

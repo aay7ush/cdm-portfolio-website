@@ -22,7 +22,7 @@ const Hero = () => {
           vitae quisquam ea illo inventore voluptatum provident?
         </p>
 
-        <Link to="/contact" className="btn btn-primary">
+        <Link to="/contact" className="btn-primary mx-auto lg:mx-0">
           Say Hi
           <MessageCircle />
         </Link>
