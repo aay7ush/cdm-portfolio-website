@@ -15,6 +15,10 @@ body {
     @apply hover:underline underline-offset-4;
   }
 
+  .contact-btn {
+    @apply px-3 py-0.5 border-2 transition duration-300 border-stone-800 hover:bg-stone-800 hover:text-white rounded-md font-medium;
+  }
+
   .btn-primary {
     @apply uppercase font-medium px-3 py-1 rounded-md transition duration-300 bg-blue-600 text-white w-fit flex gap-2 items-center hover:bg-opacity-80;
   }

@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="min-h-[calc(100vh-120px)] grid place-content-center">
         <Outlet />
       </main>
       <Footer />

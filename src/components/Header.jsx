@@ -18,7 +18,7 @@ const Header = () => {
           <li className="nav-item">
             <Link to="/projects">Projects</Link>
           </li>
-          <li className="px-3 py-0.5 border-2 transition duration-300 border-stone-800 hover:bg-stone-800 hover:text-white rounded-md font-medium">
+          <li className="contact-btn">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
