@@ -41,7 +41,7 @@ const Contact = () => {
   }
 
   return (
-    <article className="container">
+    <section className="container">
       <Intro
         title="Contact Me"
         subtitle="How to connect?"
@@ -80,61 +80,7 @@ const Contact = () => {
           <Send />
         </button>
       </form>
-    </article>
+    </section>
   )
 }
 export default Contact
-
-{
-  /* <script>
-  import emailjs from "@emailjs/browser"
-
-  const form = document.querySelector("form") as HTMLFormElement
-
-
-
-  const handleSubmit = (e: Event) => {
-    e.preventDefault()
-
-    const name = document.querySelector(
-      "input[name='name']"
-    ) as HTMLInputElement
-    const email = document.querySelector(
-      "input[name='email']"
-    ) as HTMLInputElement
-    const message = document.querySelector(
-      "textarea[name='message']"
-    ) as HTMLTextAreaElement
-
-    emailjs
-      .send(
-        SERVICE_ID,
-        TEMPLATE_ID,
-        {
-          from_name: name.value,
-          to_name: "Sadhna",
-          from_email: email.value,
-          to_email: "sadhnakaithwas28@gmail.com",
-          message: message.value,
-        },
-        PUBLIC_KEY
-      )
-      .then(
-        () => {
-          alert("Thank You! I'll get back to you as soon as possible.")
-
-          name.value = ""
-          email.value = ""
-          message.value = ""
-        },
-        (error) => {
-          console.log(error)
-
-          alert("Something went wrong.")
-        }
-      )
-  }
-
-  form.addEventListener("submit", (e) => handleSubmit(e))
-</script> */
-}

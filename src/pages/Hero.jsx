@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className="text-blue-600 font-medium flex gap-3 items-center justify-center lg:justify-normal">
           <span className="w-20 rounded-md h-1 bg-blue-600" />
-          <p className="text-3xl">Full-Stack Developer</p>
+          <h3 className="text-3xl">Full-Stack Developer</h3>
         </div>
 
         <p>
